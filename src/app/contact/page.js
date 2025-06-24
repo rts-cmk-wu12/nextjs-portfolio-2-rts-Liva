@@ -1,3 +1,4 @@
+import { FaChevronRight } from "react-icons/fa";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
@@ -43,7 +44,7 @@ export default function ContactPage() {
               placeholder="Enter your message"
               className="bg-white placeholder-[#757575] px-3 py-2 w-full rounded text-xs mt-1 resize-none" />
           </div>
-          <button type="submit" className="font-bold bg-[#3F8E00] px-13 py-3 rounded border border-[#62BA1B] text-sm">Submit &#62;</button>
+          <button type="submit" className="flex items-center justify-center gap-1 font-bold bg-[#3F8E00] px-13 py-3 rounded border border-[#62BA1B] text-sm">Submit <FaChevronRight /></button>
         </form>
       </main>
       <Footer />
