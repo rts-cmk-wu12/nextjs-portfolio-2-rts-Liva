@@ -10,9 +10,9 @@ export default function HomePage() {
       <main className="flex flex-wrap items-center justify-between w-[80vw] max-w-4xl mx-auto my-20">
         <section className="flex flex-col gap-4 items-start">
           <h1 className="text-5xl font-extrabold">Amina</h1>
-          <p className="text-sm text-neutral-500 max-w-md">Hi, I'm Amina, a Danish student at the Center for Medie og Kommunikation (CMK) at Roskilde Tekniske Skole.
+          <p className="text-sm text-[#9C9C9C] max-w-md">Hi, I'm Amina, a Danish student at the Center for Medie og Kommunikation (CMK) at Roskilde Tekniske Skole.
             I'm focused on building creative, user-friendly websites and enjoy working on both the visual and technical sides of web development.</p>
-          <Link href='/contact' className="font-bold bg-green-700 px-13 py-3 rounded border border-lime-600 mt-3">Get in touch &#62;</Link>
+          <Link href='/contact' className="font-bold bg-[#3F8E00] px-13 py-3 rounded border border-[#62BA1B] mt-3">Get in touch &#62;</Link>
         </section>
         <Image src='/amina.png' alt="Amina profile picture" width={250} height={50} className="rounded-full" />
       </main>
